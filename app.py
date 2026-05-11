@@ -10,7 +10,7 @@ from datetime import datetime
 # OPENAI_API_KEY = "your-key-here"
 # ============================================================
 client = OpenAI(api_key="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")
-
+st.sidebar.caption("API key ending: " + client.api_key[-4:])
 
 st.set_page_config(
     page_title="SMB AI Blueprint Studio",
