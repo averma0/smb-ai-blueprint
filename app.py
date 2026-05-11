@@ -9,7 +9,7 @@ from datetime import datetime
 # For Streamlit public deployment, add this in Streamlit Secrets:
 # OPENAI_API_KEY = "your-key-here"
 # ============================================================
-client = OpenAI(api_key="sk-proj-sbMz6anZrsNxSJpskJToxlMK4N62UxVwK28R-Y6Q3umDIT665tfFwYUQgSOF0Jm3K4oJoCNd1oT3BlbkFJxBtWwOW5J_wG2ImTRriwcEll8G5U-foTYB9r8RL_a5S-dF7aELv20GXi7ImRjXCx9BdlyjT")
+client = OpenAI(api_key="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")
 
 
 st.set_page_config(
